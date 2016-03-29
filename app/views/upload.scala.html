@@ -1,0 +1,23 @@
+@(orifname: String = "", r: Raw = null, fstatus: String = "")
+@import models.Raw
+
+<div class="container">
+    <div class="row">
+        @uploads.upform()
+        <p>@orifname</p>
+
+        @if(r != null){
+            <p>@r.id.toString</p>
+            <p>@r.species</p>
+            <p>@r.publication</p>
+            <p>@r.name</p>
+            <p>@r.org</p>
+            <p>@r.lastUpload.toString</p>
+        }
+
+
+        <p>@fstatus</p>
+    </div>
+</div>
+
+<script src="@routes.Assets.versioned("js/main.js")"></script>

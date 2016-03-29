@@ -1,0 +1,21 @@
+@import models.Model
+@(m: Model)
+
+<form id = "frm_eval_file" method="post" class="form-horizontal" action="/evalfile" enctype="multipart/form-data">
+
+    <div class="form-group">
+        <div class="col-xs-2">
+            <label for="eval_file">File:</label>
+        </div>
+        <div class="col-xs-10">
+            <input id="eval_file" name="file" type="file">
+        </div>
+    </div>
+    <input name="fileName" type="hidden" value="@(m.fileName)">
+    <input name="refgem" type="hidden" value="@(m.refgem)">
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-default">Reset</button>
+</form>
+

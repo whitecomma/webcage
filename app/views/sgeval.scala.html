@@ -1,0 +1,38 @@
+
+@import models.Model
+@(m: Model)
+
+@base("Evaluation") {
+    <main role="main">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <table class="table">
+                        <caption>Model Information</caption>
+                        <thead>
+                            <tr>
+                                <th>Cell Type</th>
+                                <th>Reference Genome</th>
+                                <th>Metric</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@(m.cellType)</td>
+                                <td>@(m.refgem)</td>
+                                <td>@(m.metric)</td>
+                                <td>@(m.score)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Source: @(m.source)</p>
+                </div>
+                <div class="row">
+                    @eval.evaltab(m)
+                </div>
+
+            </div>
+        </section>
+    </main>
+}

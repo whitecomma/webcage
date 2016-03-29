@@ -1,0 +1,53 @@
+sg1	0	chr3	195609053	37	23M	*	0	0	GTCACGGTGAATAAAGCGCTTGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg2	0	chr3	195609061	37	23M	*	0	0	GAATAAAGCGCTTGGACTCCAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg3	0	chr3	195609097	37	23M	*	0	0	CAGCCACCTGCACAGCGTAGCGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg4	0	chr3	195609112	37	23M	*	0	0	CGTAGCGGCTCAGAGTCCCCAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg5	0	chr3	195609115	37	23M	*	0	0	AGCGGCTCAGAGTCCCCAGGAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg6	0	chr3	195609121	23	23M	*	0	0	TCAGAGTCCCCAGGAGGAAGTGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:1	XM:i:0	XO:i:0	XG:i:0	MD:Z:23	XA:Z:chr15,-101481180,23M,1;
+sg7	0	chr3	195609127	37	23M	*	0	0	TCCCCAGGAGGAAGTGGCCCTGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg8	0	chr3	195609142	37	23M	*	0	0	GGCCCTGGTGCTTACGTAGCCGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg9	0	chr3	195609162	37	23M	*	0	0	CGGTCCAACAACGATCCCAGAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg10	0	chr3	195609183	37	23M	*	0	0	GGTGCCAGCTCTGTCACCTGAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg11	0	chr3	195609189	37	23M	*	0	0	AGCTCTGTCACCTGAGGCCACGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg12	0	chr3	195609192	37	23M	*	0	0	TCTGTCACCTGAGGCCACGGAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg13	0	chr3	195609195	37	23M	*	0	0	GTCACCTGAGGCCACGGAGGAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg14	0	chr3	195609199	37	23M	*	0	0	CCTGAGGCCACGGAGGAGGCAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg15	0	chr3	195609202	37	23M	*	0	0	GAGGCCACGGAGGAGGCAGGAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg16	0	chr3	195609212	37	23M	*	0	0	AGGAGGCAGGAGGAATGAGCTGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg17	0	chr3	195609215	37	23M	*	0	0	AGGCAGGAGGAATGAGCTGGAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg18	0	chr3	195609245	37	23M	*	0	0	CCCTTCTCAGCAGCCCACGCTGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg19	0	chr3	195609246	37	23M	*	0	0	CCTTCTCAGCAGCCCACGCTGGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg20	16	chr3	195609283	37	23M	*	0	0	CCTGAAGGCTTTCCAGAGCCAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg21	16	chr3	195609279	37	23M	*	0	0	CCTTCCTGAAGGCTTTCCAGAGC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg22	16	chr3	195609278	37	23M	*	0	0	CCCTTCCTGAAGGCTTTCCAGAG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg23	16	chr3	195609277	37	23M	*	0	0	CCCCTTCCTGAAGGCTTTCCAGA	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg24	16	chr3	195609272	37	23M	*	0	0	CCAGTCCCCTTCCTGAAGGCTTT	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg25	16	chr3	195609271	37	23M	*	0	0	CCCAGTCCCCTTCCTGAAGGCTT	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg26	16	chr3	195609270	37	23M	*	0	0	CCCCAGTCCCCTTCCTGAAGGCT	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg27	16	chr3	195609269	37	23M	*	0	0	CCCCCAGTCCCCTTCCTGAAGGC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg28	16	chr3	195609259	37	23M	*	0	0	CCACGCTGGGCCCCCAGTCCCCT	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg29	16	chr3	195609258	37	23M	*	0	0	CCCACGCTGGGCCCCCAGTCCCC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg30	16	chr3	195609246	37	23M	*	0	0	CCTTCTCAGCAGCCCACGCTGGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg31	16	chr3	195609245	37	23M	*	0	0	CCCTTCTCAGCAGCCCACGCTGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg32	16	chr3	195609244	37	23M	*	0	0	CCCCTTCTCAGCAGCCCACGCTG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg33	16	chr3	195609240	23	23M	*	0	0	CCTGCCCCTTCTCAGCAGCCCAC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:1	XM:i:0	XO:i:0	XG:i:0	MD:Z:23	XA:Z:chr11,-120769680,23M,1;
+sg34	16	chr3	195609239	20	23M	*	0	0	CCCTGCCCCTTCTCAGCAGCCCA	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:2	XM:i:0	XO:i:0	XG:i:0	MD:Z:23	XA:Z:chr11,-120769679,23M,1;chr18,-42526092,23M,1;
+sg35	16	chr3	195609206	37	23M	*	0	0	CCACGGAGGAGGCAGGAGGAATG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg36	16	chr3	195609199	37	23M	*	0	0	CCTGAGGCCACGGAGGAGGCAGG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg37	16	chr3	195609187	37	23M	*	0	0	CCAGCTCTGTCACCTGAGGCCAC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg38	16	chr3	195609178	37	23M	*	0	0	CCAGAGGTGCCAGCTCTGTCACC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg39	16	chr3	195609177	37	23M	*	0	0	CCCAGAGGTGCCAGCTCTGTCAC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg40	16	chr3	195609166	37	23M	*	0	0	CCAACAACGATCCCAGAGGTGCC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg41	16	chr3	195609161	37	23M	*	0	0	CCGGTCCAACAACGATCCCAGAG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg42	16	chr3	195609145	37	23M	*	0	0	CCTGGTGCTTACGTAGCCGGTCC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg43	16	chr3	195609144	37	23M	*	0	0	CCCTGGTGCTTACGTAGCCGGTC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg44	16	chr3	195609130	37	23M	*	0	0	CCAGGAGGAAGTGGCCCTGGTGC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg45	16	chr3	195609129	37	23M	*	0	0	CCCAGGAGGAAGTGGCCCTGGTG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg46	16	chr3	195609128	37	23M	*	0	0	CCCCAGGAGGAAGTGGCCCTGGT	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg47	16	chr3	195609103	37	23M	*	0	0	CCTGCACAGCGTAGCGGCTCAGA	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg48	16	chr3	195609100	37	23M	*	0	0	CCACCTGCACAGCGTAGCGGCTC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg49	16	chr3	195609094	37	23M	*	0	0	CCTCAGCCACCTGCACAGCGTAG	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg50	16	chr3	195609093	37	23M	*	0	0	CCCTCAGCCACCTGCACAGCGTA	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg51	16	chr3	195609088	37	23M	*	0	0	CCATGCCCTCAGCCACCTGCACA	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg52	16	chr3	195609087	37	23M	*	0	0	CCCATGCCCTCAGCCACCTGCAC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:23
+sg53	16	chr3	195609079	23	23M	*	0	0	CCAGGTAGCCCATGCCCTCAGCC	<<<<<<<<<<<<<<<<<<<<<<<	XT:A:U	NM:i:0	X0:i:1	X1:i:1	XM:i:0	XO:i:0	XG:i:0	MD:Z:23	XA:Z:chr20,-62172896,23M,1;

@@ -1,0 +1,36 @@
+@import models.Model
+@(m: Model)
+
+<form id = "frm_eval_cod" method="post" class="form-horizontal" action="/evalcod" enctype="multipart/form-data">
+
+    <div class="form-group">
+        <div class="col-xs-2">
+            <label for="eval_cod">Coordinates:</label>
+        </div>
+        <div class="col-xs-10">
+            <input class="form-control" id="eval_cod" name="cod" type="text" placeholder="chr3: 195609062-195609284">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-xs-2">
+            <label for="eval_dirct">Direction:</label>
+        </div>
+        <div class="col-xs-10">
+            <select id="eval_dirct" name="direction">
+                @*two-sided|pos|neg*@
+                <option value="two-sided" selected>Double Strand</option>
+                <option value="pos">Forward Strand</option>
+                <option value="neg">Backward Strand</option>
+            </select>
+        </div>
+    </div>
+
+    <input name="fileName" type="hidden" value="@(m.fileName)">
+    <input name="refgem" type="hidden" value="@(m.refgem)">
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-default">Reset</button>
+</form>
+

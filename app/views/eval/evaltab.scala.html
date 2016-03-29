@@ -1,0 +1,21 @@
+@import models.Model
+@(m: Model)
+
+<div>
+        <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#tab_cod" aria-controls="Coordinates" role="tab" data-toggle="tab">Coordinates</a></li>
+        <li role="presentation"><a href="#tab_file" aria-controls="File" role="tab" data-toggle="tab">File</a></li>
+    </ul>
+
+        <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="tab_cod">
+            @evalcodform(m)
+        </div>
+        <div role="tabpanel" class="tab-pane" id="tab_file">
+            @evalfileform(m)
+        </div>
+    </div>
+
+</div>
