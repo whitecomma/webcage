@@ -1,0 +1,63 @@
+# CAGE
+
+## Persistence (windows):
+
+1. Download Cassandra (2.2.x) from http://cassandra.apache.org/
+2. Set Environment Variable Cassandra_Home
+3. start Cassandra by %Cassandra_Home%/bin/cassandra.bat
+4. If python not installed, install python 2.7.9 first
+5. Run Cassandra client by %Cassandra_Home%/bin/cql
+6. Create KEYSPACE and tables:
+    CREATE KEYSPACE cage WITH replication = {'class': 'SimpleStrategy','replication_factor': 1};
+    CREATE TABLE cage.curated(id uuid PRIMARY KEY, species text, cellType text, dataName text,
+lastUpdate timestamp, name text, org text, publication text);
+    insert into cage.curated (id,species,celltype, dataName,
+lastUpdate,name,org,publication) values(631a9717-92b0-3832-a373-596e21fce6df, 'human', 'hela','abc',
+ '2016-1-21 22:10', 'mike', 'tongji', 'Nat Method');
+
+insert into cage.curated (id,species,celltype, dataName,
+lastUpdate,name,org,publication) values(5731be1e-c91a-3c3d-b444-79d0d66ad397, 'mouse', 'el4','bcd',
+ '2016-1-22 22:10', 'john', 'tongji', 'Nat Biotech');
+
+insert into cage.curated (id,species,celltype, dataName,
+lastUpdate,name,org,publication) values(f0975b6a-32fb-35b5-b325-d668645842dc, 'human', 'hl60','fdg',
+ '2016-1-23 22:10', 'mary', 'tongji', '');
+
+ insert into cage.curated (id,species,celltype, dataName,
+ lastUpdate,name,org,publication) values(f0975b6a-32fb-35b5-b325-d668645842dd, 'human', 'hl60','fdgwew',
+  '2016-1-23 22:10', 'mary', 'tongji', '');
+    
+   CREATE TABLE cage.model(cellType text PRIMARY KEY, refgem text, source text, fileName text,
+lastUpdate timestamp, metric text, score double);
+insert into cage.model (celltype, refgem, source, fileName,
+lastUpdate,metric, score) values('hela', 'hg19', 'nmeth3015', 'hela_1.pkl',
+ '2016-3-14 10:10', 'R2', 0.85);
+
+ insert into cage.model (celltype, refgem, source, fileName,
+ lastUpdate,metric, score) values('hl60', 'hg19', 'XXX', 'hl60_ribo.pkl',
+  '2016-3-14 10:10', 'AUC', 0.79);
+
+insert into cage.model (celltype, refgem, source, fileName,
+lastUpdate,metric, score) values('el4', 'mm9', 'nbt2080', 'el4_2.pkl',
+ '2016-3-14 10:11', 'AUC', 0.90);
+
+CREATE TABLE cage.raw(id uuid PRIMARY KEY, species text, cellType text,
+lastUpload timestamp, name text, org text, publication text);
+    
+insert into cage.raw (id,species,celltype,
+lastUpload,name,org,publication) values(uuid(), 'human', 'hek293t',
+ '2016-1-21 22:10', 'mike', 'tongji', 'Nat Method');
+
+insert into cage.raw (id,species,celltype,
+lastUpload,name,org,publication) values(uuid(), 'human', 'hek293t',
+ '2016-1-22 22:10', 'john', 'tongji', 'Nat Biotech');
+
+insert into cage.raw (id,species,celltype,
+lastUpload,name,org,publication) values(uuid(), 'mouse', 'el4',
+ '2016-1-23 22:10', 'mary', 'tongji', '');
+
+
+## Play and Scala:
+
+1. Download sbt from http://www.scala-sbt.org/download.html
+2. `sbt run`
